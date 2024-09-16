@@ -13,7 +13,14 @@
     <FrameLayout
         android:id="@+id/frame_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="375dp"
+            android:layout_height="103dp"
+            android:text="Button" />
+    </FrameLayout>
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomMenu"
@@ -35,7 +42,6 @@
             app:elevation="0dp"
             app:itemIconSize="30dp"
             app:labelVisibilityMode="unlabeled"
-            app:itemIconTint="@color/navigation_item_color"
             app:menu="@menu/bottom_menu" />
 
     </com.google.android.material.bottomappbar.BottomAppBar>
